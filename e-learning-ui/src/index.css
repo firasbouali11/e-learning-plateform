@@ -1,0 +1,24 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+body{
+  background-color: #F3F3F3;
+  overflow-x: hidden !important;
+  padding:0;
+  margin:0;
+}
+*{
+  font-family: "Gilroy",Proxima !important;
+}
+h1{
+  font-family: Gilroy !important
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url(./fonts/Gilroy-Light.woff) format('woff');
+}
+
+@font-face {
+font-family: 'Proxima';
+src: local('Proxima'), url(./fonts/ProximaNovaA-Light.woff) format('woff');
+}
